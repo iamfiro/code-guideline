@@ -1,5 +1,5 @@
 {
-  "name": "@iamfiro/eslint-config",
+  "name": "code-guideline",
   "version": "1.0.0",
   "main": "index.js",
   "publishConfig": {
