@@ -1,4 +1,4 @@
-# @sard-runway/eslint-config
+# eslint-config(code-guideline)
 
 > 모던 타입스크립트 + 리액트 프로젝트를 위한 Airbnb 기반 ESLint 설정
 
@@ -20,12 +20,12 @@
 루트에서 다음 명령어로 설치합니다:
 
 ```bash
-pnpm add -D eslint @sard-runway/eslint-config
+pnpm add -D eslint code-guideline
 ```
 
 또는 npm 사용시:
 ```bash
-npm install --save-dev eslint @sard-runway/eslint-config
+npm install --save-dev eslint code-guideline
 ```
 
 ### 주의:
@@ -37,7 +37,7 @@ npm install --save-dev eslint @sard-runway/eslint-config
 각 패키지(예: packages/web)의 .eslintrc.js 파일에 다음처럼 설정합니다:
 ```javascript
 module.exports = {
-  extends: ['@sard-runway/eslint-config'],
+  extends: ['code-guideline'],
 };
 ```
 
